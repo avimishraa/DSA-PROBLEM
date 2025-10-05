@@ -4,7 +4,8 @@ int sumofN(int n){
     if(n==0){
         return 1;
     }
-    return n+sumofN(n-1);
+    int ans=n+sumofN(n-1);
+    return ans;
 }
 int main()
 {
