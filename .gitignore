@@ -1,0 +1,30 @@
+# Ignore compiled files
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+
+# Ignore build directories
+/build/
+/bin/
+/debug/
+/release/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore backups
+*~
+*.swp
